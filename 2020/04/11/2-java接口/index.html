@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>1-java面向对象 | Hexo</title>
+  <title>2-java接口 | Hexo</title>
   <meta name="keywords" content="">
-  <meta name="description" content="1-java面向对象 | Hexo">
+  <meta name="description" content="2-java接口 | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="java接口1：接口定义的基本格式什么是接口 1：接口就是多个类的公共规范 2：接口是一种引用数据类型，最重要的内容就是在其中的：抽象方法  如果定义一个接口的格式 public interface 接口名{  &#x2F;&#x2F;接口内容  }  需要注意 1：换成了关键字interface之后，编译生成的字节码文件是：.java–&gt;  .class  2：如果是java7，那么接口可以包含的内容有  1">
 <meta property="og:type" content="article">
@@ -207,9 +207,9 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-1-java面向对象" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-2-java接口" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">1-java面向对象</h1>
+        <h1 class="article-title">2-java接口</h1>
     
     <div class="article-meta">
         
@@ -219,12 +219,12 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-04-10 15:29:19'>2020-04-10 15:00</time>
+        创建时间:<time class="date" title='更新时间: 2020-04-11 08:46:22'>2020-04-11 08:45</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:909</span>
+        <span>字数:1.3k</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -254,7 +254,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#java基础"><span class="toc-text">java基础</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1：什么是面向过程和面向对象"><span class="toc-text">1：什么是面向过程和面向对象</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#面向过程"><span class="toc-text">面向过程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#面向对象"><span class="toc-text">面向对象</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-：类和对象"><span class="toc-text">2 ：类和对象</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#定义类"><span class="toc-text">定义类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#定义对象"><span class="toc-text">定义对象</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3：局部变量和成员变量"><span class="toc-text">3：局部变量和成员变量</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1：定义的位置不一样"><span class="toc-text">1：定义的位置不一样</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2：作用范围不一样"><span class="toc-text">2：作用范围不一样</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3：默认值不一样"><span class="toc-text">3：默认值不一样</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#例子"><span class="toc-text">例子</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-封装"><span class="toc-text">4:封装</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#封装在java中的体现"><span class="toc-text">封装在java中的体现</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#什么是封装"><span class="toc-text">什么是封装</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5：构造方法"><span class="toc-text">5：构造方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1：什么是构造方法"><span class="toc-text">1：什么是构造方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2：格式"><span class="toc-text">2：格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3：注意事项"><span class="toc-text">3：注意事项</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6：匿名对象"><span class="toc-text">6：匿名对象</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#什么是匿名对象"><span class="toc-text">什么是匿名对象</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注意事项"><span class="toc-text">注意事项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用建议"><span class="toc-text">使用建议</span></a></li></ol></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#java接口"><span class="toc-text">java接口</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1：接口定义的基本格式"><span class="toc-text">1：接口定义的基本格式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#什么是接口"><span class="toc-text">什么是接口</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#如果定义一个接口的格式"><span class="toc-text">如果定义一个接口的格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#需要注意"><span class="toc-text">需要注意</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2：接口中的抽象方法"><span class="toc-text">2：接口中的抽象方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#抽象方法的解释"><span class="toc-text">抽象方法的解释</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#在任何一个版本中，接口都能定义抽象方法"><span class="toc-text">在任何一个版本中，接口都能定义抽象方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#格式"><span class="toc-text">格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注意事项："><span class="toc-text">注意事项：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用抽象方法"><span class="toc-text">使用抽象方法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3：接口中的默认方法"><span class="toc-text">3：接口中的默认方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#格式-1"><span class="toc-text">格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#规则"><span class="toc-text">规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用"><span class="toc-text">使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#接口的默认方法是为了干嘛"><span class="toc-text">接口的默认方法是为了干嘛</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-接口中的静态方法"><span class="toc-text">4:接口中的静态方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#格式-2"><span class="toc-text">格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注意事项"><span class="toc-text">注意事项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#正确用法"><span class="toc-text">正确用法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5：接口中的私有方法"><span class="toc-text">5：接口中的私有方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#格式-3"><span class="toc-text">格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#作用"><span class="toc-text">作用</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6：接口中的常量"><span class="toc-text">6：接口中的常量</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#格式-4"><span class="toc-text">格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注意事项-1"><span class="toc-text">注意事项</span></a></li></ol></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -270,169 +270,128 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="java基础"><a href="#java基础" class="headerlink" title="java基础"></a>java基础</h1><h2 id="1：什么是面向过程和面向对象"><a href="#1：什么是面向过程和面向对象" class="headerlink" title="1：什么是面向过程和面向对象"></a>1：什么是面向过程和面向对象</h2><h3 id="面向过程"><a href="#面向过程" class="headerlink" title="面向过程"></a>面向过程</h3><ul>
-<li><p>特点：强调过程</p>
+        <h1 id="java接口"><a href="#java接口" class="headerlink" title="java接口"></a>java接口</h1><h2 id="1：接口定义的基本格式"><a href="#1：接口定义的基本格式" class="headerlink" title="1：接口定义的基本格式"></a>1：接口定义的基本格式</h2><h3 id="什么是接口"><a href="#什么是接口" class="headerlink" title="什么是接口"></a>什么是接口</h3><ul>
+<li>1：接口就是多个类的公共规范</li>
+<li>2：接口是一种引用数据类型，最重要的内容就是在其中的：抽象方法</li>
+</ul>
+<h3 id="如果定义一个接口的格式"><a href="#如果定义一个接口的格式" class="headerlink" title="如果定义一个接口的格式"></a>如果定义一个接口的格式</h3><ul>
+<li>public interface 接口名{  <pre><code>//接口内容  </code></pre>}</li>
+</ul>
+<h3 id="需要注意"><a href="#需要注意" class="headerlink" title="需要注意"></a>需要注意</h3><ul>
+<li><p>1：换成了关键字interface之后，编译生成的字节码文件是：.java–&gt;  .class</p>
 </li>
-<li><p>面向过程是什么</p>
+<li><p>2：如果是java7，那么接口可以包含的内容有</p>
 <ul>
-<li>当需要实现一个功能时，每个具体步骤都亲力亲为，详细处理每一个细节</li>
+<li>1：常量</li>
+<li>2：抽象方法</li>
 </ul>
 </li>
-</ul>
-<h3 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h3><ul>
-<li><p>特点：强调对象</p>
-</li>
-<li><p>面向对象是什么</p>
+<li><p>3：如果是java8，还可以额外包含有</p>
 <ul>
-<li>当需要实现一个功能的时候，不关心具体的步骤，而是找到已经有该功能的人，来帮我做事</li>
+<li>3：默认方法</li>
+<li>4：静态方法</li>
+</ul>
+</li>
+<li><p>4：如果是java9，还可以额外包含</p>
+<ul>
+<li>5：私有方法</li>
 </ul>
 </li>
 </ul>
-<h2 id="2-：类和对象"><a href="#2-：类和对象" class="headerlink" title="2 ：类和对象"></a>2 ：类和对象</h2><h3 id="定义类"><a href="#定义类" class="headerlink" title="定义类"></a>定义类</h3><ul>
+<h2 id="2：接口中的抽象方法"><a href="#2：接口中的抽象方法" class="headerlink" title="2：接口中的抽象方法"></a>2：接口中的抽象方法</h2><h3 id="抽象方法的解释"><a href="#抽象方法的解释" class="headerlink" title="抽象方法的解释"></a>抽象方法的解释</h3><ul>
+<li>定义了“动物”父类，其中“动物名称”和“动物年龄”属性已经明确了，但是“动物叫”的方法没有明确，此时就可以将“动物叫”定义为抽象方法。</li>
+</ul>
+<p>　　</p>
+<ul>
+<li>所以，抽象类是为了把相同的但不确定的东西的提取出来，为了以后的重用。定义成抽象类的目的，就是为了在子类中实现抽象类。</li>
+</ul>
+<h3 id="在任何一个版本中，接口都能定义抽象方法"><a href="#在任何一个版本中，接口都能定义抽象方法" class="headerlink" title="在任何一个版本中，接口都能定义抽象方法"></a>在任何一个版本中，接口都能定义抽象方法</h3><h3 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h3><ul>
+<li>public abstract 返回值类型 方法名称 （参数列表）{<br>}</li>
+</ul>
+<h3 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h3><ul>
+<li>1：接口中的抽象方法，修饰符必须是两个固定的关键字：public abstract</li>
+<li>2：这两个关键字的修饰符，可以选择省略</li>
+</ul>
+<h3 id="使用抽象方法"><a href="#使用抽象方法" class="headerlink" title="使用抽象方法"></a>使用抽象方法</h3><ul>
+<li><p>1：接口不能直接使用，必须有一个实现类来实现该接口</p>
+<ul>
+<li><p>格式</p>
+<ul>
+<li>public class 实现类名称  implements 接口名称{<br>//…..<br>}</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>2：接口的实现类必须复写（实现）接口中所有的抽象方法。</p>
+<ul>
+<li><p>实现</p>
+<ul>
+<li>去掉abstract关键字，加上方法体大括号</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>3：创建实体类的对象，进行使用</p>
+</li>
 <li><p>注意事项</p>
 <ul>
-<li>1：成员变量是直接定义在类当中的</li>
-<li>2：成员方法不能用static修饰</li>
-</ul>
-</li>
-<li><p>例子</p>
-<ul>
-<li><p>public class student{</p>
-<p>//成员变量</p>
-<p>String name；</p>
-<p>//成员方法</p>
-<p>public void eat(){</p>
-<p>  System.out.println(“吃饭”)</p>
-<p>}</p>
-</li>
+<li>如果实现类并没有覆盖重写接口中的所有的抽象方法，那么这个实现类就必须是抽象类</li>
 </ul>
 </li>
 </ul>
-<p>}</p>
-<h3 id="定义对象"><a href="#定义对象" class="headerlink" title="定义对象"></a>定义对象</h3><ul>
-<li><p>创建，格式</p>
-<ul>
-<li>类名称  对象名  =  new  类名称（）</li>
+<h2 id="3：接口中的默认方法"><a href="#3：接口中的默认方法" class="headerlink" title="3：接口中的默认方法"></a>3：接口中的默认方法</h2><h3 id="格式-1"><a href="#格式-1" class="headerlink" title="格式"></a>格式</h3><ul>
+<li>public default 返回值类型 方法名称（参数列表）{<br>   方法体<br>}</li>
 </ul>
-</li>
-<li><p>使用</p>
-<ul>
-<li><p>1：对象名.成员变量名</p>
-<ul>
-<li>student.name</li>
+<h3 id="规则"><a href="#规则" class="headerlink" title="规则"></a>规则</h3><ul>
+<li>1．默认方法使用 default 关键字，一个接口中可以有多个默认方法。<br>2．接口中既可以定义抽象方法，又可以定义默认方法，默认方法不是抽象方法。<br>3．子类实现接口的时候，可以直接调用接口中的默认方法，即继承了接口中的默认方法。<br>4．接口中同时还可以定义静态方法，静态方法通过接口名调用。</li>
 </ul>
-</li>
-<li><p>2：对象名.成员方法名</p>
-<ul>
-<li>student.eat( )</li>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ul>
+<li>1：接口的默认方法，可以通过接口实现类对象，直接调用。<br>2：接口的默认方法，也可以被接口实现类进行覆盖重写</li>
 </ul>
-</li>
+<h3 id="接口的默认方法是为了干嘛"><a href="#接口的默认方法是为了干嘛" class="headerlink" title="接口的默认方法是为了干嘛"></a>接口的默认方法是为了干嘛</h3><ul>
+<li>接口中定义默认方法是为了解决：<br>假如我们定义了一个接口，里面已经有一个抽象方法。<br>然后一个工具类已经实现了接口，并且已经进行了复写抽象方法<br>现在要在接口中又新添加一个方法，为了防止工具类被重写（因为工具类已经有了很多的业务），如果进行重写。可能会出错，所以有了接口中的默认方法<br>工具类也可以去重写接口中的默认方法。</li>
 </ul>
-</li>
-</ul>
-<h2 id="3：局部变量和成员变量"><a href="#3：局部变量和成员变量" class="headerlink" title="3：局部变量和成员变量"></a>3：局部变量和成员变量</h2><h3 id="1：定义的位置不一样"><a href="#1：定义的位置不一样" class="headerlink" title="1：定义的位置不一样"></a>1：定义的位置不一样</h3><ul>
-<li><p>局部变量</p>
-<ul>
-<li>在方法的内部</li>
-</ul>
-</li>
-<li><p>成员变量</p>
-<ul>
-<li>在方法的外部，直接写在类当中</li>
-</ul>
-</li>
-</ul>
-<h3 id="2：作用范围不一样"><a href="#2：作用范围不一样" class="headerlink" title="2：作用范围不一样"></a>2：作用范围不一样</h3><ul>
-<li><p>局部变量</p>
-<ul>
-<li>只有方法当中才可以使用，出了方法就不能再用</li>
-</ul>
-</li>
-<li><p>成员变量</p>
-<ul>
-<li>整个类全都可以通用</li>
-</ul>
-</li>
-</ul>
-<h3 id="3：默认值不一样"><a href="#3：默认值不一样" class="headerlink" title="3：默认值不一样"></a>3：默认值不一样</h3><ul>
-<li><p>局部变量</p>
-<ul>
-<li>没有默认值，如果想要，必须手动进行赋值</li>
-</ul>
-</li>
-<li><p>成员变量</p>
-<ul>
-<li>如果没有赋值，会有默认值，规则和数组一样</li>
-</ul>
-</li>
-</ul>
-<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><ul>
-<li><p>public class demo1 {<br>  //成员变量<br>  private String name;</p>
-<p>  public void eat(){</p>
-<pre><code>//局部变量
-int num = 20;</code></pre><p>  }<br>}</p>
-</li>
-</ul>
-<h2 id="4-封装"><a href="#4-封装" class="headerlink" title="4:封装"></a>4:封装</h2><h3 id="封装在java中的体现"><a href="#封装在java中的体现" class="headerlink" title="封装在java中的体现"></a>封装在java中的体现</h3><ul>
-<li><p>1：方法就是一种封装</p>
-<ul>
-<li>public static void eat(){<br>  System.out.println(“hello”);<br>}</li>
-</ul>
-</li>
-<li><p>2:关键字private也是一种封装</p>
-<ul>
-<li><p>一旦使用了private进行修饰，在本类中可以随意访问，但是超出本类就不能直接访问了</p>
-<ul>
-<li><p>间接访问private成员变量，就是定义一对Geeter/Setter</p>
-<ul>
-<li>对于Getter来说，不能有参数，返回值类型和成员变量对应</li>
-<li>对于Setter来说，不能有返回值，参数类型和成员变量对应</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>private封装的好处</p>
-<ul>
-<li>可以防止main在调用的时候随意赋值参数</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="什么是封装"><a href="#什么是封装" class="headerlink" title="什么是封装"></a>什么是封装</h3><ul>
-<li>封装就是将一些细节信息隐藏起来，对于外界不可见</li>
-</ul>
-<h2 id="5：构造方法"><a href="#5：构造方法" class="headerlink" title="5：构造方法"></a>5：构造方法</h2><h3 id="1：什么是构造方法"><a href="#1：什么是构造方法" class="headerlink" title="1：什么是构造方法"></a>1：什么是构造方法</h3><ul>
-<li>构造方法时专门用来创建对象的方法，当我们通过关键字new来创建对象的时，其实就是在调用构造方法</li>
-</ul>
-<h3 id="2：格式"><a href="#2：格式" class="headerlink" title="2：格式"></a>2：格式</h3><ul>
-<li>pubic  类名称（参数类型  参数名称）{<pre><code>方法体</code></pre>  }</li>
-</ul>
-<h3 id="3：注意事项"><a href="#3：注意事项" class="headerlink" title="3：注意事项"></a>3：注意事项</h3><ul>
-<li><p>1：构造方法的名称必须和所在的类名称完全一样，连大小写也要一样</p>
-</li>
-<li><p>2：构造方法没有返回值，连void都不用写</p>
-</li>
-<li><p>3：构造方法不能return一个具体的返回值</p>
-</li>
-<li><p>4：如果没有编任何构造方法，那么变压器会默认赠送一个构造方法，没有参数，方法体什么都不用做，</p>
-</li>
-<li><p>5：一旦编写了至少一个构造方法，那么编译器将不再赠送</p>
-</li>
-<li><p>6：构造方法也是可以进行重载的</p>
-<ul>
-<li>重载：方法名称相同，参数列表不同</li>
-</ul>
-</li>
-</ul>
-<h2 id="6：匿名对象"><a href="#6：匿名对象" class="headerlink" title="6：匿名对象"></a>6：匿名对象</h2><h3 id="什么是匿名对象"><a href="#什么是匿名对象" class="headerlink" title="什么是匿名对象"></a>什么是匿名对象</h3><ul>
-<li>匿名对象就是只有右边的对象，没有左边的名字和赋值运算符。new  类名称（）；</li>
+<h2 id="4-接口中的静态方法"><a href="#4-接口中的静态方法" class="headerlink" title="4:接口中的静态方法"></a>4:接口中的静态方法</h2><h3 id="格式-2"><a href="#格式-2" class="headerlink" title="格式"></a>格式</h3><ul>
+<li>public static 返回值类型 方法名称（参数列表）{<br>   方法体<br>}</li>
 </ul>
 <h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
-<li>匿名对象只能使用唯一的一次，下次再使用不得不再创建一个新对象</li>
+<li>不能通过接口的实现类的对象来调用接口中的静态方法</li>
 </ul>
-<h3 id="使用建议"><a href="#使用建议" class="headerlink" title="使用建议"></a>使用建议</h3><ul>
-<li>只有确定有一个对象只需要使用唯一的异常，就可以使用匿名对象</li>
+<h3 id="正确用法"><a href="#正确用法" class="headerlink" title="正确用法"></a>正确用法</h3><ul>
+<li><p>通过接口名称</p>
+<ul>
+<li>直接调用其中的静态方法</li>
+</ul>
+</li>
+<li><p>格式</p>
+<ul>
+<li>接口名称.静态方法名（参数）</li>
+</ul>
+</li>
+</ul>
+<h2 id="5：接口中的私有方法"><a href="#5：接口中的私有方法" class="headerlink" title="5：接口中的私有方法"></a>5：接口中的私有方法</h2><h3 id="格式-3"><a href="#格式-3" class="headerlink" title="格式"></a>格式</h3><ul>
+<li><p>普通私有方法，解决多个默认方法之间代码重复问题</p>
+<ul>
+<li>private  返回值类型  方法名称（参数列表）{<br>方法体<br>}</li>
+</ul>
+</li>
+<li><p>静态私有方法，解决多个静态方法之间代码重复问题</p>
+<ul>
+<li>private  static  返回值类型  方法名称（参数列表）{<br>方法体<br>}</li>
+</ul>
+</li>
+</ul>
+<h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3><ul>
+<li>1：我们应该使用私有修饰符(private)来定义这些方法。<br>2：我们不能同时使用私有修饰符（private）和abstract来定义这些方法。<br>3：“私有”方法意味着完全实现的方法，因为子类不能继承并覆盖此方法。<br>4：“抽象”方法意味着无实现方法。这里子类应该继承并覆盖此方法。<br>5：私有方法必须包含方法体，必须是具体方法。<br>6：这些接口私有方法仅在该接口内是有用的或可访问的。我们无法从接口访问或继承私有方法到另一个接口或类。</li>
+</ul>
+<h2 id="6：接口中的常量"><a href="#6：接口中的常量" class="headerlink" title="6：接口中的常量"></a>6：接口中的常量</h2><h3 id="格式-4"><a href="#格式-4" class="headerlink" title="格式"></a>格式</h3><ul>
+<li>public static final 数据类型 常量名称 = 数据值</li>
+</ul>
+<h3 id="注意事项-1"><a href="#注意事项-1" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
+<li>1：接口当中的常量，可以省略public static final,注意，不写也照样是这样</li>
+<li>2：接口当中的常量，必须进行赋值，不能不赋值</li>
+<li>3：接口常量的名称，使用完全大写的字母，用下划线进行分割（推荐命名规则）</li>
+<li>4：一旦赋值就不能进行修改</li>
 </ul>
 <p><em>XMind - Trial Version</em></p>
 
